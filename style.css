@@ -41,21 +41,21 @@ body {
 .open-button {
     font-size: 20px;
     cursor: pointer;
-    background-color: rgb(34, 29, 29);
-    border: none;
-    color: white;
+    background-color: transparent;
+    border: solid;
+    color: black;
     padding: 5px 10px;
-    border-radius: 100%;
+    border-radius: 50%;
     position: fixed;
-}
-
-.open-button:hover {
-    background-color: #444;
 }
 
 #main {
     transition: margin-left .5s;
     padding-left: 16px;
+}
+
+h1 {
+    text-align: center;
 }
 
 /* for smaller screen */
